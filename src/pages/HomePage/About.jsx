@@ -25,7 +25,7 @@ const About = () => {
               reshaping the web & mobile apps with top-notch design and the
               power of no code.
             </p>
-            <button className={styles.contactBtn}>Contact Us</button>
+            <button className={styles.aboutContactBtn}>Contact Us</button>
           </div>
         </div>
       </div>

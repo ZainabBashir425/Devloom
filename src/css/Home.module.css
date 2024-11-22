@@ -396,7 +396,7 @@ text-align: left;
   margin-right: 1rem;
 }
 
-.contactBtn {
+.aboutContactBtn {
   background-color: #fad007; 
   color: #000000;
   border: none;
@@ -1066,7 +1066,7 @@ color: var(--white);
       line-height: 26px;
     }
   
-    .contactBtn {
+    .aboutContactBtn {
       padding: 0.8rem 2rem;
       font-size: 12px;
     }
@@ -1136,7 +1136,7 @@ color: var(--white);
       line-height: 24px;
     }
   
-    .contactBtn {
+    .aboutContactBtn {
       padding: 0.6rem 1.5rem;
       font-size: 12px;
     }
