@@ -1042,6 +1042,8 @@ color: var(--white);
   /* Testimonial Card */
   .testimonialCard{
       min-width:90vw;
+      border-radius: 50px;
+      gap: 0.25rem;
   }
 
 }
