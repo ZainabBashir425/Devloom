@@ -1,6 +1,6 @@
 import React from 'react';
 import {whiteStar} from "../../assets";
-import styles from "../../css/Home.module.css";
+import styles from "../../css/Home/HeroSection.module.css";
 
 function FieldStrip(props) {
   return (

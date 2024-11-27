@@ -1,13 +1,14 @@
 import React from 'react';
+import style from "../../css/Home/About.module.css";
 import {mobileApp1,mobileApp2,mobileApp3,viewArrow }  from "../../assets";
-import styles from "../../css/Home.module.css";
+import styles from "../../css/Home/LatestProjects.module.css";
 import ProjectCard from './ProjectCard';
 
 function LatestProjects() {
   return (
     <>
     <section className={styles.latestProjectsSection}>
-    <div className={styles.leftBanner}>
+    <div className={`${style.leftBanner} ${styles.leftBanner}`}>
           <span>Portfolio</span>
         </div>
         {/* Project Intro Section */}

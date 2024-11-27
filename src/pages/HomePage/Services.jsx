@@ -1,5 +1,6 @@
 import React from "react";
-import styles from "../../css/Home.module.css";
+import style from "../../css/Home/About.module.css";
+import styles from "../../css/Home/Services.module.css";
 import {
   Service,
   TopRightArrow,
@@ -11,7 +12,7 @@ import {
 const Services = () => {
   return (
     <div className={styles.serviceContainer}>
-      <div className={styles.leftBanner}>
+      <div className={`${style.leftBanner} ${styles.leftBanner}`}>
         <span>WHAT WE DO</span>
       </div>
       <div className={styles.serviceContent}>
@@ -27,7 +28,7 @@ const Services = () => {
             the unique needs of each client.
           </p>
           <div className={styles.servicesList}>
-            <div className={styles.serviceItem}>
+            <div className={`${styles.serviceItem} ${styles.active}`}>
               <p className={styles.serviceButton}>
                 <span className={styles.serviceNumber}>01 </span>UI/UX Design
               </p>

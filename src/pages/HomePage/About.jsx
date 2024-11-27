@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../css/Home.module.css";
+import styles from "../../css/Home/About.module.css";
 import {
   logoipsum1,
   logoipsum2,

@@ -1,5 +1,7 @@
 import React from "react";
-import styles from "../../css/Home.module.css";
+import style from "../../css/Home/About.module.css";
+import styles from "../../css/Home/DesignProcess.module.css";
+import styles2 from "../../css/Home/Services.module.css";
 import {
   Design1,
   Design2,
@@ -20,12 +22,13 @@ const DesignProcess = () => {
         </h1>
       </header>
       <section className={styles.processContent}>
-        <div className={styles.leftBanner}>
+      <img src={ProcessStar}  className={styles.processStar1} alt="" />
+        <div className={`${style.leftBanner} ${styles.leftBanner}`}>
           <span>Procedure</span>
         </div>
         <h2 className={styles.processSubtitle}>
           How Our Design Process{" "}
-          <div className={styles.highlight}>
+          <div className={`${styles.highlight} ${styles2.highlight}`}>
             <p>Works</p>
           </div>
         </h2>
@@ -34,6 +37,7 @@ const DesignProcess = () => {
           design, with a focus on understanding and meeting the unique needs of
           each client.
         </p>
+        <img src={ProcessStar} className={styles.processStar2} alt="" />
         <div className={styles.processSteps}>
           <div className={styles.processStep}>
             <div className={styles.processStepContent}>
@@ -54,7 +58,7 @@ const DesignProcess = () => {
           </div>
           <div className={styles.processStep}>
             <div className={styles.processStepContent}>
-                <img src={ProcessStar}  className={styles.processStar1} alt="" />
+                
               <h6>Step 2: </h6>
               <h3>
                 Develop <img src={DesignArrow} alt="" />
@@ -63,7 +67,7 @@ const DesignProcess = () => {
                 Cut through the noise, grab your audience's attention, and turn
                 passive attendees into active participants.
               </p>
-              <img src={ProcessStar} className={styles.processStar2} alt="" />
+              
             </div>
             <div className={styles.processStepImage}>
               <img src={Design2} alt="" />
@@ -71,7 +75,7 @@ const DesignProcess = () => {
           </div>
           <div className={styles.processStep}>
             <div className={styles.processStepContent}>
-              <h6>Step 4: </h6>
+              <h6>Step 3: </h6>
               <h3>
                 Analyze <img src={DesignArrow} alt="" />
               </h3>

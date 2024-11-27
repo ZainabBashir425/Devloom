@@ -1,6 +1,6 @@
 import React from 'react';
 import { client }  from "../../assets";
-import styles from "../../css/Home.module.css";
+import styles from "../../css/Home/Testimonials.module.css";
 
 
 function TestimonialCard(props) {

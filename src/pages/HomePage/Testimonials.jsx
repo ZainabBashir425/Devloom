@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "../../css/Home.module.css";
+import styles from "../../css/Home/Testimonials.module.css";
 import TestimonialCard from './TestimonialCard';
 
 function Testimonials() {

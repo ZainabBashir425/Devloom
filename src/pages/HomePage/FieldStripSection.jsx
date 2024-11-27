@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "../../css/Home.module.css";
+import styles from "../../css/Home/HeroSection.module.css";
 import FieldStrip from './FieldStrip';
 
 function FieldStripSection() {

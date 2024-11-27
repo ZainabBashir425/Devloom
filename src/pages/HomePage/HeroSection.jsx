@@ -1,6 +1,6 @@
 import React,{useEffect} from "react";
 import { Star, arrow, mainImg, mobileimg, play,reimage } from "../../assets";
-import styles from "../../css/Home.module.css";
+import styles from "../../css/Home/HeroSection.module.css";
 
 function HeroSection() {
   const text = "DEVLOOM. SOLUTIONS";
