@@ -14,7 +14,7 @@ function LatestProjects() {
         {/* Project Intro Section */}
         <div className={styles.projectIntro}>
 <div className={styles.introHeading}>
-    <h2>Latest <p>Projects </p></h2>
+    <h2>Latest Projects </h2>
 </div>
 <div className={styles.projectDetail}>
     <p> Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit</p>
