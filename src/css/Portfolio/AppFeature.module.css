@@ -69,14 +69,14 @@
     margin-bottom: 0.5rem;
   }
   
-  h3 {
+  .featureItem h3 {
     font-size: 1.25rem;
     margin: 0.5rem 0;
     font-weight: 700;
     color: #ffC310
   }
   
-  p {
+  .featureItem p {
     font-size: 0.9rem;
     font-weight: 400;
     line-height: 1.4;
