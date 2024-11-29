@@ -73,6 +73,17 @@ import interactive from './PortfolioAssets/InteractiveProject.jfif';
 
 export {QAProject1,interactive, QAProject2, ChatProject, HDProject};
 
+// Blogs Page Images
+import BlogImg1 from './BlogsAssets/BlogImg1.png'
+import BlogImg2 from './BlogsAssets/BlogImg2.png'
+import BlogImg3 from './BlogsAssets/BlogImg3.png'
+import BlogImg4 from './BlogsAssets/BlogImg4.png'
+import BlogImg5 from './BlogsAssets/BlogImg5.png'
+import BlogImg6 from './BlogsAssets/BlogImg6.png'
+import BlogImg7 from './BlogsAssets/BlogImg7.png'
+
+export {BlogImg1,BlogImg2,BlogImg3,BlogImg4,BlogImg5,BlogImg6,BlogImg7}
+
 import Facebook from './FooterAssets/Facebook.png';
 import LinkedIn from './FooterAssets/LinkedIn.png';
 import Instagram from './FooterAssets/Instagram.png';
