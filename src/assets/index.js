@@ -74,15 +74,20 @@ import interactive from './PortfolioAssets/InteractiveProject.jfif';
 export {QAProject1,interactive, QAProject2, ChatProject, HDProject};
 
 // Blogs Page Images
-import BlogImg1 from './BlogsAssets/BlogImg1.png'
-import BlogImg2 from './BlogsAssets/BlogImg2.png'
-import BlogImg3 from './BlogsAssets/BlogImg3.png'
-import BlogImg4 from './BlogsAssets/BlogImg4.png'
-import BlogImg5 from './BlogsAssets/BlogImg5.png'
-import BlogImg6 from './BlogsAssets/BlogImg6.png'
-import BlogImg7 from './BlogsAssets/BlogImg7.png'
+import BlogImg1 from './BlogsAssets/BlogImg1.png';
+import BlogImg2 from './BlogsAssets/BlogImg2.png';
+import BlogImg3 from './BlogsAssets/BlogImg3.png';
+import BlogImg4 from './BlogsAssets/BlogImg4.png';
+import BlogImg5 from './BlogsAssets/BlogImg5.png';
+import BlogImg6 from './BlogsAssets/BlogImg6.png';
+import BlogImg7 from './BlogsAssets/BlogImg7.png';
+import JoinImage from './BlogsAssets/JoinImage.png'
+import RecentPost from './BlogsAssets/RecentPost.png'
+import BlogImg8 from './BlogAssets/BlogImg8.png';
+import BlogImg9 from './BlogAssets/BlogImg9.png';
+import BlogImg10 from './BlogAssets/BlogImg10.png';
 
-export {BlogImg1,BlogImg2,BlogImg3,BlogImg4,BlogImg5,BlogImg6,BlogImg7}
+export {BlogImg1,BlogImg2,BlogImg3,BlogImg4,BlogImg5,BlogImg6,BlogImg7,RecentPost,JoinImage,BlogImg9,BlogImg10,BlogImg8}
 
 import Facebook from './FooterAssets/Facebook.png';
 import LinkedIn from './FooterAssets/LinkedIn.png';
