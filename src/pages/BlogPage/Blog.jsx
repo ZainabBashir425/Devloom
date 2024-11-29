@@ -1,10 +1,13 @@
 import React from 'react'
+import BlogSection from './BlogSection'
+import BlogCard from './BlogCard'
 
 function Blog() {
   return (
-    <div>
-      <h1>Blog Page.</h1>
-    </div>
+    <>
+      <BlogSection />
+      <BlogCard />
+    </>
   )
 }
 
