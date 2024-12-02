@@ -14,7 +14,6 @@ import Design3 from './HomeAssets/Design3.png'
 import DesignArrow from './HomeAssets/DesignArrow.png'
 import ProcessStar from './HomeAssets/ProcessStar.png'
 import ProcessHStar from './HomeAssets/ProcessHStar.png'
-export{logoipsum1,logoipsum2,logoipsum3,logoipsum4,logoipsum5,Service,TopRightArrow,RightArrow,RightArrowW,TopRightArrowW,Design1,Design2,Design3,DesignArrow,ProcessHStar,ProcessStar}
 
 // hero section images
 import Star from './HomeAssets/Star3.png';
@@ -32,7 +31,7 @@ import mobileApp3 from './HomeAssets/Rectangle 47 (2).png';
 import viewArrow from './HomeAssets/Vector2.png';
 // Testimonials Images
 import client from './HomeAssets/Ellipse 2162.png';
-export {Star,arrow,mobileimg,mainImg,play,reimage,whiteStar,mobileApp1,mobileApp2,mobileApp3,viewArrow,client};
+
 
 // Signup Images
 import signup from './HomeAssets/signup.jfif';
@@ -41,8 +40,7 @@ import inputArrow from './HomeAssets/inputArrow.png';
 import news1 from './HomeAssets/news1.png';
 import news2 from './HomeAssets/news2.png';
 import news3 from './HomeAssets/news3.png';
-export {
-    news1, news2, news3, signup, inputArrow};
+
 
 import AppFeatureImg from './PortfolioAssets/AppFeature.png'
 import AF1 from './PortfolioAssets/AF1.png'
@@ -62,7 +60,6 @@ import Feature8 from './PortfolioAssets/Feature8.png'
 import Feature9 from './PortfolioAssets/Feature9.png'
 import RightArrowP from './PortfolioAssets/RightArrow.png'
 
-export {AF1,AF2,AF3,AF4,AppFeatureImg,AgendaBuilder1,AgendaBuilder2,Feature1,Feature2,Feature3,Feature4,Feature5,Feature6,Feature7,Feature8,Feature9,RightArrowP};
 // PORTFOLIO PAGE IMAGES
 // OUR PROJECTS images
 import QAProject1 from './PortfolioAssets/QAProject1.jfif';
@@ -71,9 +68,10 @@ import ChatProject from './PortfolioAssets/ChatProject.png';
 import HDProject from './PortfolioAssets/HDProject.jfif';
 import interactive from './PortfolioAssets/InteractiveProject.jfif';
 
-export {QAProject1,interactive, QAProject2, ChatProject, HDProject};
+
 
 // Blogs Page Images
+
 import BlogImg1 from './BlogsAssets/BlogImg1.png';
 import BlogImg2 from './BlogsAssets/BlogImg2.png';
 import BlogImg3 from './BlogsAssets/BlogImg3.png';
@@ -83,15 +81,24 @@ import BlogImg6 from './BlogsAssets/BlogImg6.png';
 import BlogImg7 from './BlogsAssets/BlogImg7.png';
 import JoinImage from './BlogsAssets/JoinImage.png'
 import RecentPost from './BlogsAssets/RecentPost.png'
-import BlogImg8 from './BlogAssets/BlogImg8.png';
-import BlogImg9 from './BlogAssets/BlogImg9.png';
-import BlogImg10 from './BlogAssets/BlogImg10.png';
 
-export {BlogImg1,BlogImg2,BlogImg3,BlogImg4,BlogImg5,BlogImg6,BlogImg7,RecentPost,JoinImage,BlogImg9,BlogImg10,BlogImg8}
 
 import Facebook from './FooterAssets/Facebook.png';
 import LinkedIn from './FooterAssets/LinkedIn.png';
 import Instagram from './FooterAssets/Instagram.png';
 import Twitter from './FooterAssets/Twitter.png';
+
+export {BlogImg1,BlogImg2,BlogImg3,BlogImg4,BlogImg5,BlogImg6,BlogImg7,RecentPost,JoinImage};
+
+export {Star,arrow,mobileimg,mainImg,play,reimage,whiteStar,mobileApp1,mobileApp2,mobileApp3,viewArrow,client};
+export {
+    news1, news2, news3, signup, inputArrow};
+
+export {AF1,AF2,AF3,AF4,AppFeatureImg,AgendaBuilder1,AgendaBuilder2,Feature1,Feature2,Feature3,Feature4,Feature5,Feature6,Feature7,Feature8,Feature9,RightArrowP};
+
+export{logoipsum1,logoipsum2,logoipsum3,logoipsum4,logoipsum5,Service,TopRightArrow,RightArrow,RightArrowW,TopRightArrowW,Design1,Design2,Design3,DesignArrow,ProcessHStar,ProcessStar}
+
+export {QAProject1,interactive, QAProject2, ChatProject, HDProject};
+
 
 export{Facebook,LinkedIn,Instagram,Twitter}

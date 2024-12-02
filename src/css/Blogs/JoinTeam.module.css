@@ -9,6 +9,7 @@
 }
 .joinImage img{
     width: 50vw;
+    margin-left: -15px;
 height: 100%;
 object-fit: cover;
 border-radius: 20px;
@@ -59,6 +60,7 @@ border-radius: 30px;
     }
     .joinImage img{
         width: 100%;
+        margin-left: 0;
     }
 }
 @media (max-width:576px){
