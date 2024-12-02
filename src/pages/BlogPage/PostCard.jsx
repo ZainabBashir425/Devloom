@@ -9,7 +9,7 @@ function PostCard(props) {
         <div className={styles.postTitle}><h3>{props.postTitle}<span>{props.postDate}</span></h3></div>
         <h2>{props.postTopic}</h2>
         <p>{props.postDescription}</p>
-        <div className={styles.readMore}>
+        <div className={styles.readMore} style={{color:`${props.color}`}}>
             Read More...
         </div>
     </div>

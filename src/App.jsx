@@ -4,7 +4,7 @@ import {
   createRoutesFromElements
 } from "react-router-dom";
 import {Layout} from './components'
-import {Home, Portfolio,Blog} from "./pages";
+import {Home, Portfolio,Blog,BlogDetail} from "./pages";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -12,6 +12,7 @@ export const router = createBrowserRouter(
       <Route path="" element={<Home />} />
       <Route path="portfolio" element={<Portfolio />} />
       <Route path="blog" element={<Blog />} />
+      <Route path="blogdetail" element={<BlogDetail />} />
     </Route>
   )
 );

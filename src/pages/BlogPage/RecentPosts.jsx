@@ -32,7 +32,7 @@ function RecentPosts() {
               developing tools and resources that enable others, we’re committed
               to making AI accessible to everyone.
             </p>
-            <Link to="/" className={styles.readMoreBtn}>
+            <Link to="/blogdetail" className={styles.readMoreBtn}>
               Read More
             </Link>
           </div>

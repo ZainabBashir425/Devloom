@@ -82,11 +82,19 @@ import BlogImg7 from './BlogsAssets/BlogImg7.png';
 import JoinImage from './BlogsAssets/JoinImage.png'
 import RecentPost from './BlogsAssets/RecentPost.png'
 
+import blogpost1 from './BlogDetailAssets/blogpost1.png'
+import blogpost2 from './BlogDetailAssets/blogpost2.png'
+import blogpost3 from './BlogDetailAssets/blogpost3.png'
+import blogd1 from './BlogDetailAssets/blogd1.png'
+import blogd2 from './BlogDetailAssets/blogd2.png'
+
 
 import Facebook from './FooterAssets/Facebook.png';
 import LinkedIn from './FooterAssets/LinkedIn.png';
 import Instagram from './FooterAssets/Instagram.png';
 import Twitter from './FooterAssets/Twitter.png';
+
+export {blogpost1,blogpost2,blogpost3,blogd1,blogd2}
 
 export {BlogImg1,BlogImg2,BlogImg3,BlogImg4,BlogImg5,BlogImg6,BlogImg7,RecentPost,JoinImage};
 

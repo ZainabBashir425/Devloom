@@ -118,9 +118,9 @@ justify-self: baseline;
 .postCard{
     flex: 0 0  calc(33% - 20px);
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
-    gap: 1rem;
+    min-height: 600px;
     flex-direction: column;
     padding-top: 1.5rem;
 }

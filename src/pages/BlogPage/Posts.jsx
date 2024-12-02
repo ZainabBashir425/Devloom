@@ -1,5 +1,4 @@
 import React from 'react';
-// import {BlogImg1,BlogImg2,bl} from '../../assets';
 import blogpost1 from '/BlogAssets/blogpost1.png';
 import blogpost2 from '/BlogAssets/blogpost2.png';
 import blogpost3 from '/BlogAssets/blogpost3.png';
