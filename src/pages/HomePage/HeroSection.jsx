@@ -22,25 +22,7 @@ function HeroSection() {
           <div className={styles.mainOne}>
             <div className={styles.mainImges}>
               <img className={styles.mobImg} src={mobileimg} alt="mobile" />
-              {/* <div className={styles.playImg}> */}
-
-              {/* <h1 className={styles.text}>
-      {splitText.map((char, index) => (
-        <span 
-          key={index} 
-          style={{
-            transform: `rotate(${index * 16.5}deg)`, 
-            position: "absolute", 
-
-            transformOrigin: "0 80px"
-          }}
-        >
-          {char}
-        </span>
-      ))}
-    </h1> */}
-              {/* <img src={play} alt="play " />
-              </div> */}
+              
               <div className={styles.playContainer}>
                 <img src={play} alt="Play Button" className={styles.playImg} />
                 <svg
