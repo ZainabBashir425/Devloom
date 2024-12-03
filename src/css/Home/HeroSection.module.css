@@ -72,16 +72,49 @@
     align-items: center;
     padding-bottom: 2rem;
   }
-  .playImg{
+  .playContainer {
     position: relative;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  backdrop-filter: blur(8.800000190734863px);
-  align-items: center;
+    width: 110px; /* Container size */
+    height: 110px;
+    margin-left: -20px;
+    border-radius: 50%;
+    backdrop-filter: blur(8.8px);
   }
+  
+  .playImg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 27px; /* Play button size */
+    height: 27px;
+    transform: translate(-50%, -50%);
+  }
+  
+  .rotatedText {
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    width: 96%;
+    height: 96%;
+    
+  }
+  
+  .rotatedText text {
+    fill: #170F49;
+    font-size: 13px; /* Adjusted font size */
+    text-transform: uppercase;
+    line-height: 15.73px;
+    font-weight: 500;
+    font-family: "Inter";
+    letter-spacing: 1px; 
+  }
+  
+  .rotatedText textPath {
+    text-anchor: middle;
+    
+  }
+  
+  
   .text {
     position: relative;
     width: 60px;
