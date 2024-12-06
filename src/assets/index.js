@@ -88,11 +88,22 @@ import blogpost3 from './BlogDetailAssets/blogpost3.png'
 import blogd1 from './BlogDetailAssets/blogd1.png'
 import blogd2 from './BlogDetailAssets/blogd2.png'
 
+// Contact Images
+
+import mainContactImg from './ContactAssets/Frame 1.png'
+import achievementsIcon from './ContactAssets/Group 35907.png'
+import dollarIcon from './ContactAssets/Group 35908.png'
+import contactHImg1 from './ContactAssets/Rectangle 7.png'
+import contactHImg2 from './ContactAssets/Rectangle 8.png'
+import contactStar from './ContactAssets/Star 7.png'
+
 
 import Facebook from './FooterAssets/Facebook.png';
 import LinkedIn from './FooterAssets/LinkedIn.png';
 import Instagram from './FooterAssets/Instagram.png';
 import Twitter from './FooterAssets/Twitter.png';
+
+export {contactHImg1,contactHImg2,contactStar,achievementsIcon,dollarIcon,mainContactImg}
 
 export {blogpost1,blogpost2,blogpost3,blogd1,blogd2}
 

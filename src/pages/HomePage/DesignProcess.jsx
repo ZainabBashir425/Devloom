@@ -32,7 +32,7 @@ const DesignProcess = () => {
             <p>Works</p>
           </div>
         </h2>
-        <p className={styles.processDescription}>
+        <p className={styles.deisgnprocessDescription}>
           Devloom Solution follows a collaborative and iterative approach to
           design, with a focus on understanding and meeting the unique needs of
           each client.

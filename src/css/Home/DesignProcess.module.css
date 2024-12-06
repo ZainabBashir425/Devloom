@@ -66,12 +66,13 @@
    padding: 10px 40px 0 30px ;
   }
   
-  .processDescription {
+  .deisgnprocessDescription {
     font-size: 20px;
     margin: 15px auto 30px;
     max-width: 680px;
     font-weight: 400;
     line-height: 34px;
+    color: #f3f3f3;
     font-family: "Archivo";
     transform: skewY(4deg);
   }
@@ -151,7 +152,10 @@
     .processSubtitle{
       font-size: 38px;
     }
-    .processDescription{
+    .highlight>p{
+      font-size: 38px !important;
+    }
+    .deisgnprocessDescription{
       font-size: 17px;
     }
     .processTitle{
@@ -177,6 +181,9 @@
   }
   
   @media (max-width: 768px) {
+    .processContainer{
+      margin: 5rem  0;
+    }
     
     .processContent{
       padding: 3rem 1rem 3rem 3rem;
@@ -185,7 +192,10 @@
       font-size: 32px;
       width: 100%;
     }
-    .processDescription{
+    .highlight>p{
+      font-size: 32px !important;
+    }
+    .deisgnprocessDescription{
       font-size: 15px;
     }
     .processTitle{

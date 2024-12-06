@@ -64,7 +64,7 @@ const Services = () => {
             <div className={styles.infoBox}>
               <p>Ever wondered how design magic happens?</p>
               <div className={styles.infoButton}>
-                <p>See how we work </p>
+                <p className={styles.infoButtonContent}>See how we work </p>
                 <div className={styles.infoimg}>
                   <img src={TopRightArrowW} alt="" />
                 </div>
@@ -75,7 +75,7 @@ const Services = () => {
                 Looking for design experts who can bring your vision to life?
               </p>
               <div className={styles.infoButton}>
-                <p>Meet our expert</p>{" "}
+                <p className={styles.infoButtonContent}>Meet our expert</p>{" "}
                 <div className={styles.infoimg}>
                   <img src={TopRightArrow} alt="" />
                 </div>
