@@ -96,6 +96,13 @@ import dollarIcon from './ContactAssets/Group 35908.png'
 import contactHImg1 from './ContactAssets/Rectangle 7.png'
 import contactHImg2 from './ContactAssets/Rectangle 8.png'
 import contactStar from './ContactAssets/Star 7.png'
+import innovateStar from './ContactAssets/Star6.png';
+
+
+import ProductDetailImg from './ProjectDetailAssets/ProductDetailImg.png'
+import statsScreen from './ProjectDetailAssets/stats-screen.png'
+import GroceryApp1 from './ProjectDetailAssets/GroceryApp1.png'
+import GroceryApp2 from './ProjectDetailAssets/GroceryApp2.png'
 
 
 import Facebook from './FooterAssets/Facebook.png';
@@ -103,7 +110,9 @@ import LinkedIn from './FooterAssets/LinkedIn.png';
 import Instagram from './FooterAssets/Instagram.png';
 import Twitter from './FooterAssets/Twitter.png';
 
-export {contactHImg1,contactHImg2,contactStar,achievementsIcon,dollarIcon,mainContactImg}
+export {ProductDetailImg,GroceryApp1,GroceryApp2,statsScreen}
+
+export {contactHImg1,contactHImg2,contactStar,achievementsIcon,dollarIcon,mainContactImg,innovateStar}
 
 export {blogpost1,blogpost2,blogpost3,blogd1,blogd2}
 

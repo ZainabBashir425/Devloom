@@ -4,7 +4,7 @@ import { mainContactImg } from "../../assets";
 
 function ContactForm() {
   return (
-    <div className={styles.container}>
+    <div className={styles.contactContainer}>
       <div className={styles.imageContainer}>
         <img
           src={mainContactImg}
