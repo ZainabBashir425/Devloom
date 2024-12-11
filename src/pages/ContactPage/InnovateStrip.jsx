@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../../css/Contact/GetInTouch.module.css';
 import {
     ProcessHStar,innovateStar
-  } from "../../Assets";
+  } from "../../assets";
 function InnovateStrip() {
   return (
     <section className={styles.innovateStripSection}>
